@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "bitfork-develop",
+    "baseName": "dens",
+    "packageName": "eu.bitfork.dens",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "da",
+      "de"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.8.1",
+    "packageFolder": "eu/bitfork/dens",
+    "jwtSecretKey": "d3c5e8b7c8a06e0f30a756aaea5e9926c30f65e8",
+    "jhiPrefix": "jhi"
+  }
+}
